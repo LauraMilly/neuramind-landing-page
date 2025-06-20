@@ -5,20 +5,17 @@
   box-sizing: border-box;
 }
 
-/* Corpo da página em branco */
 body {
   font-family: system-ui, sans-serif;
-  background-color: #fff;
-  color: #000;
+  background-color: #000000;
+  color: #ffffff;
 }
 
-/* Links sem decoração por padrão */
 a {
   text-decoration: none;
   color: inherit;
 }
 
-/* Botão básico sem estilos */
 button {
   font-family: inherit;
   border: none;
