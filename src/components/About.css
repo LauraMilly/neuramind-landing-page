@@ -1,0 +1,116 @@
+.about-section {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  background: url('/assets/Laura-Arts (7).png') no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  padding: 100px 20px;
+  height: 80vh;
+  margin-top: -100px;
+}
+
+.about-section::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.6); 
+  z-index: -1;
+}
+
+@media (min-width: 768px) {
+  .about-section {
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;  
+  }
+}
+.about-text {
+  max-width: 500px;
+  margin-bottom: 40px;
+}
+
+.about-text h2 {
+  font-size: 36px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 16px;
+  color: #ccc;
+  margin-bottom: 30px;
+}
+
+.about-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-primary {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.about-slider {
+  width: 100%;
+  max-width: 500px;
+}
+
+.swiper-container {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.slide-card {
+  width: 250px !important;
+}
+
+.card-content {
+  border-radius: 12px;
+  padding: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+.card-content h3 {
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+
+.card-image {
+  height: 200px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+}
+
+.gradient1 {
+  background: linear-gradient(135deg, #383838, #757575);
+}
+
+.gradient2 {
+  background: #000000;
+}
+
+.gradient3 {
+  background: #232324;
+}
