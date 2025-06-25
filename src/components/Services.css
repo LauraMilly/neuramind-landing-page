@@ -1,0 +1,73 @@
+.services-timeline-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+              url('/assets/bg-services-tech.png') no-repeat center center;
+  background-size: cover;
+  color: white;
+  padding: 100px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.empresa{
+    color: #00f7ff;
+}
+.services-timeline-section h2 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 2.4rem;
+  margin-bottom: 60px;
+}
+
+.timeline {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.timeline-item.right {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.timeline-icon {
+  background: #00f7ff22;
+  border: 2px solid #00f7ff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 0 20px;
+  box-shadow: 0 0 20px #00f7ff88;
+}
+
+.timeline-icon img {
+  width: 40px;
+  height: 40px;
+}
+
+.timeline-content {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px 30px;
+  border-radius: 12px;
+  border: 1px solid #00f7ff33;
+  box-shadow: 0 0 10px #00f7ff22;
+  max-width: 400px;
+}
+
+.timeline-content h3 {
+  color: #00f7ff;
+  margin-bottom: 10px;
+}
+
+.timeline-content p {
+  color: #ccc;
+  font-size: 0.95rem;
+}

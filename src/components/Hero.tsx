@@ -20,7 +20,12 @@ const Hero: React.FC = () => {
         <div className="hero-image">
           <img src="" alt="" />
         </div>
-        <a href="#about" className="scroll-down">↓</a>
+        <a href="#about" className="scroll-down">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+
 
       </div>
     </div>
